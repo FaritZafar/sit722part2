@@ -17,4 +17,4 @@ COPY book_catalog /app/book_catalog
 EXPOSE 8000
 
 # Run the application
-CMD ["python", "book_catalog/test_db_connection.py"]
+CMD ["python", "book_catalog/main.py"]
