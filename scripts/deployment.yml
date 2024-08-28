@@ -19,7 +19,7 @@ spec:
             - containerPort: 8000
           env:
             - name: DATABASE_URL
-              value: "postgresql://user:password@postgres-service:5432/bookdb"
+              value: "postgresql://book_catalog_db_hg7v_user:xYRp6A9Ns6wVPtcz9B1nIykuoLod8Yc1@dpg-cr7grsa3esus7389kkf0-a:5432/book_catalog_db_hg7v"
 ---
 apiVersion: v1
 kind: Service
